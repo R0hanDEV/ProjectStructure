@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'PF Handbook Pro';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/fonts/PFHandbookProRegular.woff');
+  }
+  
+  @font-face {
+    font-family: "PF Encore Sans Pro";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../assets/fonts/PFEncoreSansPro-Reg.otf");
+  }
+  
+  @font-face {
+    font-family: "PF Encore Sans Pro";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../assets/fonts/PFEncoreSansPro-Bold.otf");
+  }
+  
+  
+  @font-face {
+    font-family: 'PF Handbook Pro Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/fonts/PFHandbookProItalic.woff');
+  }
+  
+  
+  @font-face {
+    font-family: 'PF Handbook Pro Extra Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/fonts/PFHandbookProExtraThin.woff');
+  }
+  
+  
+  @font-face {
+    font-family: 'PF Handbook Pro Extra Thin Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/fonts/PFHandbookProExtraThinItalic.woff');
+  }
+  
+  
+  @font-face {
+    font-family: 'PF Handbook Pro Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/fonts/PFHandbookProThin.woff');
+  }
+  
+  
+  @font-face {
+    font-family: 'PF Handbook Pro Thin Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/fonts/PFHandbookProThinItalic.woff');
+  }
+  
+  
+  @font-face {
+    font-family: 'PF Handbook Pro Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/fonts/PFHandbookProMediumItalic.woff');
+  }
+  
+  
+  @font-face {
+    font-family: 'PF Handbook Pro Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/fonts/PFHandbookProBold.woff');
+  }
+  
+  
+  @font-face {
+    font-family: 'PF Handbook Pro Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/fonts/PFHandbookProBoldItalic.woff');
+  }
+  
+  
+  @font-face {
+    font-family: 'PF Handbook Pro Black';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/fonts/PFHandbookProBlack.woff');
+  }
+  
+  
+  @font-face {
+    font-family: 'PF Handbook Pro Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/fonts/PFHandbookProBlackItalic.woff');
+  }
