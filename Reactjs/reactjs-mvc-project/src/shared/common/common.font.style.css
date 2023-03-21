@@ -2,21 +2,21 @@
     font-family: 'PF Handbook Pro';
     font-style: normal;
     font-weight: normal;
-    src: url('../assets/fonts/PFHandbookProRegular.woff');
+    src: url('../../assets/fonts/PFHandbookProRegular.woff');
   }
   
   @font-face {
     font-family: "PF Encore Sans Pro";
     font-style: normal;
     font-weight: normal;
-    src: url("../assets/fonts/PFEncoreSansPro-Reg.otf");
+    src: url("../../assets/fonts/PFEncoreSansPro-Reg.otf");
   }
   
   @font-face {
     font-family: "PF Encore Sans Pro";
     font-style: normal;
     font-weight: bold;
-    src: url("../assets/fonts/PFEncoreSansPro-Bold.otf");
+    src: url("../../assets/fonts/PFEncoreSansPro-Bold.otf");
   }
   
   
@@ -24,7 +24,7 @@
     font-family: 'PF Handbook Pro Italic';
     font-style: normal;
     font-weight: normal;
-    src: url('../assets/fonts/PFHandbookProItalic.woff');
+    src: url('../../assets/fonts/PFHandbookProItalic.woff');
   }
   
   
@@ -32,7 +32,7 @@
     font-family: 'PF Handbook Pro Extra Thin';
     font-style: normal;
     font-weight: normal;
-    src: url('../assets/fonts/PFHandbookProExtraThin.woff');
+    src: url('../../assets/fonts/PFHandbookProExtraThin.woff');
   }
   
   
@@ -40,7 +40,7 @@
     font-family: 'PF Handbook Pro Extra Thin Italic';
     font-style: normal;
     font-weight: normal;
-    src: url('../assets/fonts/PFHandbookProExtraThinItalic.woff');
+    src: url('../../assets/fonts/PFHandbookProExtraThinItalic.woff');
   }
   
   
@@ -48,7 +48,7 @@
     font-family: 'PF Handbook Pro Thin';
     font-style: normal;
     font-weight: normal;
-    src: url('../assets/fonts/PFHandbookProThin.woff');
+    src: url('../../assets/fonts/PFHandbookProThin.woff');
   }
   
   
@@ -56,7 +56,7 @@
     font-family: 'PF Handbook Pro Thin Italic';
     font-style: normal;
     font-weight: normal;
-    src: url('../assets/fonts/PFHandbookProThinItalic.woff');
+    src: url('../../assets/fonts/PFHandbookProThinItalic.woff');
   }
   
   
@@ -64,7 +64,7 @@
     font-family: 'PF Handbook Pro Medium Italic';
     font-style: normal;
     font-weight: normal;
-    src: url('../assets/fonts/PFHandbookProMediumItalic.woff');
+    src: url('../../assets/fonts/PFHandbookProMediumItalic.woff');
   }
   
   
@@ -72,7 +72,7 @@
     font-family: 'PF Handbook Pro Bold';
     font-style: normal;
     font-weight: normal;
-    src: url('../assets/fonts/PFHandbookProBold.woff');
+    src: url('../../assets/fonts/PFHandbookProBold.woff');
   }
   
   
@@ -80,7 +80,7 @@
     font-family: 'PF Handbook Pro Bold Italic';
     font-style: normal;
     font-weight: normal;
-    src: url('../assets/fonts/PFHandbookProBoldItalic.woff');
+    src: url('../../assets/fonts/PFHandbookProBoldItalic.woff');
   }
   
   
@@ -88,7 +88,7 @@
     font-family: 'PF Handbook Pro Black';
     font-style: normal;
     font-weight: normal;
-    src: url('../assets/fonts/PFHandbookProBlack.woff');
+    src: url('../../assets/fonts/PFHandbookProBlack.woff');
   }
   
   
@@ -96,5 +96,5 @@
     font-family: 'PF Handbook Pro Black Italic';
     font-style: normal;
     font-weight: normal;
-    src: url('../assets/fonts/PFHandbookProBlackItalic.woff');
+    src: url('../../assets/fonts/PFHandbookProBlackItalic.woff');
   }
