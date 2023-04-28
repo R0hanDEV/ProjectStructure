@@ -1,0 +1,117 @@
+# mongoose schema models
+
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+
+// String 
+const stringtype = mongoose.Schema({
+  name:{
+    type:String
+  }
+})
+
+// number 
+const numbertype = mongoose.Schema({
+  mobile_number:{
+    type:number,
+    max:10
+  }
+})
+
+// boolean 
+const booleantype = mongoose.Schema({
+  boolen_val:{
+    type:Boolean,
+    defualt :true
+  }
+})
+
+// Date
+const Datetype = mongoose.Schema({
+  datevalue:{
+    type:Date
+    defualt:Date.now
+  }
+})
+
+// objectid
+const objectidtype = mongoose.Schema({
+    userId:{
+      type:Schema.Type.Objectid,
+      ref:'user'
+    }
+})
+
+//array schema  
+const arraySchema = mongoose.Schema({
+  tags:{
+    type:[string]
+    required:true
+  }
+})
+
+// mixed schema
+
+const mixedschema = mongoose.Schema({
+  mixed:{
+    type:Schema.Types.Mixed,
+    required:true
+  }
+})
+
+
+// Decimal128 field
+const decimalSchema = new Schema({
+  price: {
+    type: Schema.Types.Decimal128,
+    required: true
+  }
+});
+
+// Map field
+const mapSchema = new Schema({
+  info: {
+    type: Map,
+    of: String,
+    required: true
+  }
+});
+
+// Buffer field
+const bufferSchema = new Schema({
+  image: {
+    type: Buffer,
+    required: true
+  }
+});
+
+// Enum field  
+A property that can be added to String fields to specify a list of allowed values.
+
+const enumSchema = new Schema({
+  status: {
+    type: String,
+    enum: ['active', 'inactive', 'pending'],
+    required: true
+  }
+});
+
+// Required field
+const requiredSchema = new Schema({
+  name: {
+    type: String,
+    required: true
+  }
+});
+
+// Unique field
+
+A property that can be added to any of the above types to ensure that the field has a unique value across all documents in the collection.
+
+const uniqueSchema = new Schema({
+  email: {
+    type: String,
+    required: true,
+    unique: true
+  }
+})
