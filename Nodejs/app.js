@@ -12,7 +12,7 @@ const cors = require("cors")
 
 
 /* load config file */
-dotenv.config({ path: "./config" })
+dotenv.config({ path: "./config/config.env" })
 
 
 /* invoke express  */
