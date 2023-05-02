@@ -18,8 +18,12 @@ mongoose
         // useCreateIndex: true,
         // keepAlive: true
     })
+    .then((conn) => {
+        console.log(`mongoose connected `)
+    })
+    .catch((err) => {
+        console.log(err)
+    })
 
-
-const db = mongoose.connection
-
-module.exports = db
+    
+module.exports.Users = require("./user")

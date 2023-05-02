@@ -11,12 +11,14 @@ const routers = express.Router({ mergeParams: true })
 
 /* invoke controllers to route */
 const {
-    getUser
+    getUser,
+    addUser
 } = require("../controllers/user.js")
 
 
 /* declare routers */
 routers.get('/user', getUser)
+routers.post('/user', addUser)
 
 
 
